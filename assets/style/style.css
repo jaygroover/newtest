@@ -1,0 +1,44 @@
+*{
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+button{
+    background-color: brown;
+    color: aqua;
+}
+
+/* #=id and .=class */
+
+#b2{
+    background-color: darkblue;
+}
+
+.b3{
+    background-color: darkorchid;
+}
+
+/* #test{
+    position: relative;
+    margin-left: 50px;
+} */
+
+/* this is for the body of the carousel -- location */
+  .carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+
+  /* this is for individual images sizing */
+  .carousel-inner > .carousel-item > img {
+    width:640px;
+    height:360px;
+   
+  }
+
+  /* .carousel-inner img {
+    margin: auto;
+  } */
